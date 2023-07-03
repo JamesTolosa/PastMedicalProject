@@ -1,0 +1,74 @@
+<html>
+<head>
+<style>
+.button {
+  background-color: #2AA415;
+  border: none;
+  color: black;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
+<style>
+p.solid {border-style:solid;border-color: gray; margin-top: 3mm; margin-right: 
+		80mm; margin-bottom: 3mm;
+		margin-left:70mm; text-align:justify; 
+		background-color:  #c0c0c0;
+		width:750; padding:10px; }
+p.solid2 {border-style:solid;border-color: gray; margin-top: 3mm; margin-right: 
+		80mm; margin-bottom: 3mm;
+		margin-left:70mm; text-align:justify; 
+		background-color:  #c0c0c0;
+		width:750; padding:10px; }	
+</style>
+</head>
+<body>
+<br><br>
+<center>
+<h1>Order Form</h1>
+<p class = "solid">Plaster: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" id="PLA" value="" size="2">&nbsp;&nbsp;
+ Sterile Gauze:<input type="number" id="STE" size="2">
+
+&nbsp;Triangular Bandages:<input type="number" id="TRI" value="" size = "2">&nbsp;
+Crepe Rolled Bandages:<input type="number" id="CRE" value="" size = "2"><br>
+
+Safety pins:&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" id="SAFE" value="" size = "2">
+
+Sterile Gloves: <input type="number" id="DIS" value="" size = "2"> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cleansing wipes: <input type="number" id="WIP" value="" size="2"> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Medical Tape:&nbsp;&nbsp;&nbsp;<input type="number" id="TAPE" size="2"><br>
+
+Thermometer:<input type="number" id="THE" value="" size = "2">&nbsp;&nbsp;&nbsp; 
+Paracetamol: <input type="number" id="PAR" value="" size = "2">
+
+First Aid Kit Package:<input type="number" id="PACK" value="" size = "2">
+
+
+<p class = "solid2">LastName: <input type="text" name="LastName" value="">&nbsp;&nbsp;&nbsp&nbsp&nbsp&nbsp&nbspFirstName:  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" name="Firstname" value=""><br><br>
+
+Address:&nbsp&nbsp&nbsp <input type="text" name="Address" value="" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp&nbsp Postal Code: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" name="Postal Code" value=""><br><br>
+
+Email: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" name="Email" value="">&nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp;&nbsp;
+
+Telephone number: <input type="text" name="Telephone number" value="">
+
+<center><br><Br><a href = "projectStore.html"><input type="button" class="button" value="Submit Order" onclick = "submit()"></center>
+<br>
+<center><a href = "afterhomepage.html"> <input type="button" class="button" value="Go back to homepage">
+
+
+<script>
+
+
+
+function submit(){
+alert("Your order has been submitted. Just wait for the delivery guy in 2-3 days.");
+}
+</script>
+</body>
+</html>
