@@ -1,0 +1,212 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<style>
+hr { 
+  display: block;
+  margin-top: 0.25em;
+  margin-bottom: 1.0em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+} 
+table {
+  width:95%;
+}
+table th, td {
+  border-bottom: 1px solid #ddd;
+}
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+th {
+  background-color: green;
+  color: white;
+}
+table#t01 tr:nth-child(even) {
+  background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+  background-color: #fff;
+}
+h2 > a, h2 > a {
+  text-decoration: none;
+  color: GREEN;
+  z-index: 1;
+}
+
+h2 > a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background: green;
+  visibility: hidden;
+  border-radius: 5px;
+  transform: scaleX(0);
+  transition: .45s linear;
+}
+h2 > a:hover:before,
+h2 > a:focus:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+</style>
+<style>
+.button {
+  background-color: #2AA415;
+  border: none;
+  color: black;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
+<style>
+p.solid {border-style:solid;border-color: gray; margin-top: 3mm; margin-right: 
+		80mm; margin-bottom: 3mm;
+		margin-left:70mm; text-align:justify; 
+		background-color:  #c0c0c0;
+		width:750; padding:10px; }
+p.solid2 {border-style:solid;border-color: gray; margin-top: 3mm; margin-right: 
+		80mm; margin-bottom: 3mm;
+		margin-left:70mm; text-align:justify; 
+		background-color:  #c0c0c0;
+		width:750; padding:10px; }	
+</style>
+</head>
+<body>
+<br>
+<h3 align="center">First Aid Equipment Shop</h3>
+<hr>
+<table id="t01" align="center">
+<caption>Here are the list of equipments/medicines we offer to you to have in a first aid kit</caption>
+	<tr>
+	  <th>Item</th>
+	  <th></th>
+	  <th>Description</th>
+	  <th>Prices(php)</th>
+	</tr>
+	<tr>
+	  <td><b>Plaster</b></td>
+	  <td><img src="products/plasters.png" alt="plaster" width="100px" height="100px"></td>
+	  <td><b>Plasters</b>. Used for small cuts and grazes.</td>
+	  <td>69.00</td>
+	</tr>
+	<tr>
+	  <td><b>Triangular Bandages</b></td>
+	  <td><img src="products/triBand.jpg" width="100px" height="100px"></td>
+	  <td><b>Triangular bandages</b>, also known as <b>Cravat Bandage</b>, is a piece of cloth put into right-angled triangles and often provided woth safety pins to secure it in a place</td>
+	  <td>49.00</td>
+	</tr>
+	<tr>
+	  <td><b>Crepe Rolled Bandages</b></td>
+	  <td><img src="products/crepeRolled.jpg" width="100" height="100px"></td>
+	  <td>An elastic bandage used to create localized pressure. It is commonly 
+		used to treat muscle spains and strains by reducong the flow of blood to a particular area by the application of even stable pressure which can restrict swelling at the place of injury.</td>
+	  <td>79.99</td>
+	</tr>
+	<tr>
+	  <td><b>Safety Pins</b></td>
+	  <Td><img src="products/safetyPins.jpg" width="100" height="100"></td>
+	  <td><b>Safety Pins</b> has a number of uses in first aid. It is commonly used to secure a bandana over a wounded and bleeding arm or leg. It can be used to help keep a severe wound closed in place of stitches in dire circumstances.</td>
+	  <td>19.99</td>
+	</tr>
+	<tr>
+	  <td><b>Disposable Sterile Gloves</b></td>
+	  <td><img src="products/disposable.jpg" width="100" height="100"></td>
+	  <td><b>Disposable Sterile Gloves</b> is a must need equipment to prevent any germs/bacteria in our hands that can infect the wound.</td>
+	  <td>49.00</td>
+	</tr>
+	<tr>
+	  <td><b>Sterile  Gauze</b></td>
+	  <td><img src="products/sterileGauze.jpg" width="100" height="100"></td>
+	  <td><b>Sterile Gauze</b> is designed for open wounds. It prevents the wound from infecting.</td>
+	  <td>49.00</td>
+	</tr>
+	  <td><b>Alcohol free Cleansing Wipes</b></td> 
+	  <td><img src="products/cleansingWipes.jpg" width="100" height="100"></td>
+	  <td>Individually-wrapped alcohol free cleansing wipes for cleaning the area around a wound, or to clean skin before applying an adhesive tape or dressing.</td>
+	  <td>149.00</td>
+	</tr>
+	<tr>
+	  <td><b>Surgical/Medical tape</b></td>
+	  <td><img src="products/medicaltape.png" width="100" height="100"></td>
+	  <td><b>Surgical/Medical tape</b> is a type of pressure-sensitive adhesive tape used in medicine and first aid to hold a bandage or otger dressing onto a wound.</td>
+	  <td>49.00</td>
+	</tr>
+	<tr>
+	  <td><b>Thermometer</b></td>
+	  <td><img src="products/thermometer.jpg" width="100" height="100"></td>
+	  <td>A <b>Thermometer</b> for measuring body temperature.</td>
+	  <td>229.00</td>
+	</tr>
+	<tr>
+	  <td><b>Paracetamol(tablet)</b>
+	  <td><img src="products/paracetamol.jpg" width="100" height="100"></td>
+	  <td>Common Painkiller</td>
+	  <td>49.99/bundle</td>
+	</tr>
+	<tr>
+	  <td><b>First Aid Kit Package</b></td>
+	  <td><img src="products/firstaidkit.jpg" width="100" height="100"></td>
+	  <Td>Contains all the equipment on this list.<br>1 Box of plasters(5pcs)<br>1 box of Sterile Gauze(5pcs)<br>2 triangular bandages<br>1 box of Creped rolled bandages(1 roll)<br>5 safety pins<br>3 pairs of Sterile Gloves<br>1 box of Cleansing Wipes(10pcs)<br>1 roll of Medical Tape<br>1 Thermometer<br>1 bundle of Paracetamol
+	  <td>749.99</td>
+</table>
+<hr><br>
+<h3><font color="green">&nbsp;&nbsp;&nbsp;&nbsp;*Note:</font></h3>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We do not cancel any orders. Please be sure of buying in any of our products.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Please disregard any deliveries that contains none on our list and report it to us immediately.</p> 
+<br><br>
+<center>
+<h1>Order Form</h1>
+<p class = "solid">Plaster: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" id="PLA" value="" size="2">&nbsp;&nbsp;
+ Sterile Gauze:<input type="number" id="STE" size="2">
+
+&nbsp;Triangular Bandages:<input type="number" id="TRI" value="" size = "2">&nbsp;
+Crepe Rolled Bandages:<input type="number" id="CRE" value="" size = "2"><br>
+
+Safety pins:&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" id="SAFE" value="" size = "2">
+
+Sterile Gloves: <input type="number" id="DIS" value="" size = "2"> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cleansing wipes: <input type="number" id="WIP" value="" size="2"> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Medical Tape:&nbsp;&nbsp;&nbsp;<input type="number" id="TAPE" size="2"><br>
+
+Thermometer:<input type="number" id="THE" value="" size = "2">&nbsp;&nbsp;&nbsp; 
+Paracetamol: <input type="number" id="PAR" value="" size = "2">
+
+First Aid Kit Package:<input type="number" id="PACK" value="" size = "2">
+
+
+<p class = "solid2">LastName: <input type="text" name="LastName" value="">&nbsp;&nbsp;&nbsp&nbsp&nbsp&nbsp&nbspFirstName:  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" name="Firstname" value=""><br><br>
+
+Address:&nbsp&nbsp&nbsp <input type="text" name="Address" value="" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp&nbsp Postal Code: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" name="Postal Code" value=""><br><br>
+
+Email: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" name="Email" value="">&nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp;&nbsp;
+
+Telephone number: <input type="text" name="Telephone number" value="">
+
+<center><br><Br><a href = "form1.html"><input type="button" class="button" value="Submit Order" onclick = "submit()"></center>
+<br>
+<center><a href = "afterhomepage.html"> <input type="button" class="button" value="Go back to homepage"></a>
+
+
+<script>
+
+
+
+function submit(){
+alert("Your order has been submitted. Just wait for the delivery guy in 2-3 days.");
+}
+</script>
+</body>
+</html>
